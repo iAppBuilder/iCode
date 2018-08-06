@@ -1,0 +1,84 @@
+2018-07-24 11:35:15:873 AccuWeather[main] E AWSwiftLogger:19 Service: AWKit.AWKMinuteCastCurrentConditionsService
+2018-07-24 11:35:15:896 AccuWeather[main] E AWSwiftLogger:19 Service Error: Optional(Error Domain=com.alamofire.error.serialization.response Code=-1011 "Request failed: conflict (409)" UserInfo={NSLocalizedDescription=Request failed: conflict (409), NSErrorFailingURLKey=https://api.accuweather.com/forecasts/v1/minute/1minute?apiKey=ekhA5PxPCm3KgNImGcXtjUJqRd4Rt3Cb&language=en&details=true&currentconditions=false&q=35.3179,-93.1886, com.alamofire.serialization.response.error.data=<7b22436f 6465223a 22536572 76696365 556e6176 61696c61 626c6522 2c224d65 73736167 65223a22 54686520 616c6c6f 77656420 6e756d62 6572206f 66207265 71756573 74732068 61732062 65656e20 65786365 65646564 2e222c22 52656665 72656e63 65223a22 2f666f72 65636173 74732f76 312f6d69 6e757465 2f316d69 6e757465 2e6a736f 6e3f6170 694b6579 3d656b68 41355078 50436d33 4b674e49 6d476358 746a554a 71526434 52743343 62266c61 6e677561 67653d65 6e266465 7461696c 733d7472 75652663 75727265 6e74636f 6e646974 696f6e73 3d66616c 73652671 3d33352e 33313739 2c2d3933 2e313838 36227d>, com.alamofire.serialization.response.error.response=<NSHTTPURLResponse: 0x1c862b640> { URL: https://api.accuweather.com/forecasts/v1/minute/1minute?apiKey=ekhA5PxPCm3KgNImGcXtjUJqRd4Rt3Cb&language=en&details=true&currentconditions=false&q=35.3179,-93.1886 } { Status Code: 409, Headers {
+    "Access-Control-Allow-Headers" =     (
+        "Accept,Origin,Content-Type"
+    );
+    "Access-Control-Allow-Methods" =     (
+        GET
+    );
+    "Access-Control-Allow-Origin" =     (
+        "*"
+    );
+    "Access-Control-Max-Age" =     (
+        1209600
+    );
+    "Cache-Control" =     (
+        "public, max-age=1"
+    );
+    Connection =     (
+        "keep-alive"
+    );
+    "Content-Length" =     (
+        247
+    );
+    "Content-Type" =     (
+        "application/json; charset=utf-8"
+    );
+    Date =     (
+        "Tue, 24 Jul 2018 16:35:14 GMT"
+    );
+    Expires =     (
+        "Tue, 24 Jul 2018 16:35:15 GMT"
+    );
+    "RateLimit-Limit" =     (
+        50
+    );
+    "RateLimit-Remaining" =     (
+        0
+    );
+    Server =     (
+        "Microsoft-IIS/10.0"
+    );
+} }})
+2018-07-24 12:45:39:531 AccuWeather[main] E AWSwiftLogger:19 Service: AWKit.AWKMinuteCastCurrentConditionsService
+2018-07-24 12:45:39:540 AccuWeather[main] E AWSwiftLogger:19 Service Error: Optional(Error Domain=com.alamofire.error.serialization.response Code=-1011 "Request failed: conflict (409)" UserInfo={NSLocalizedDescription=Request failed: conflict (409), NSErrorFailingURLKey=https://api.accuweather.com/forecasts/v1/minute/1minute?apiKey=ekhA5PxPCm3KgNImGcXtjUJqRd4Rt3Cb&language=en&details=true&currentconditions=false&q=35.3085,-93.1755, com.alamofire.serialization.response.error.data=<7b22436f 6465223a 22536572 76696365 556e6176 61696c61 626c6522 2c224d65 73736167 65223a22 54686520 616c6c6f 77656420 6e756d62 6572206f 66207265 71756573 74732068 61732062 65656e20 65786365 65646564 2e222c22 52656665 72656e63 65223a22 2f666f72 65636173 74732f76 312f6d69 6e757465 2f316d69 6e757465 2e6a736f 6e3f6170 694b6579 3d656b68 41355078 50436d33 4b674e49 6d476358 746a554a 71526434 52743343 62266c61 6e677561 67653d65 6e266465 7461696c 733d7472 75652663 75727265 6e74636f 6e646974 696f6e73 3d66616c 73652671 3d33352e 33303835 2c2d3933 2e313735 35227d>, com.alamofire.serialization.response.error.response=<NSHTTPURLResponse: 0x1c0a2a420> { URL: https://api.accuweather.com/forecasts/v1/minute/1minute?apiKey=ekhA5PxPCm3KgNImGcXtjUJqRd4Rt3Cb&language=en&details=true&currentconditions=false&q=35.3085,-93.1755 } { Status Code: 409, Headers {
+    "Access-Control-Allow-Headers" =     (
+        "Accept,Origin,Content-Type"
+    );
+    "Access-Control-Allow-Methods" =     (
+        GET
+    );
+    "Access-Control-Allow-Origin" =     (
+        "*"
+    );
+    "Access-Control-Max-Age" =     (
+        1209600
+    );
+    "Cache-Control" =     (
+        "public, max-age=1"
+    );
+    Connection =     (
+        "keep-alive"
+    );
+    "Content-Length" =     (
+        247
+    );
+    "Content-Type" =     (
+        "application/json; charset=utf-8"
+    );
+    Date =     (
+        "Tue, 24 Jul 2018 17:45:39 GMT"
+    );
+    Expires =     (
+        "Tue, 24 Jul 2018 17:45:40 GMT"
+    );
+    "RateLimit-Limit" =     (
+        50
+    );
+    "RateLimit-Remaining" =     (
+        0
+    );
+    Server =     (
+        "Microsoft-IIS/10.0"
+    );
+} }})
