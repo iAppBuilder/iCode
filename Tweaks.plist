@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>patches</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string></string>
+			<key>apiVersion</key>
+			<integer>3</integer>
+			<key>appIdentifier</key>
+			<string>com.apple.MobileSMS</string>
+			<key>author</key>
+			<string>iCode</string>
+			<key>cloudDescription</key>
+			<string>This in for iCode to work! </string>
+			<key>cloudID</key>
+			<integer>41049</integer>
+			<key>downloadDate</key>
+			<integer>1531260423</integer>
+			<key>name</key>
+			<string>Never Show App Bar (iOS 11)</string>
+			<key>switchedOn</key>
+			<false/>
+			<key>units</key>
+			<array>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>CKMessageEntryView</string>
+						<key>displayName</key>
+						<string>-(bool) shouldShowAppStrip</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>shouldShowAppStrip</string>
+						<key>typeEncoding</key>
+						<string>B16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(bool) shouldShowAppStrip</string>
+					<key>overrides</key>
+					<array>
+						<dict>
+							<key>argument</key>
+							<integer>0</integer>
+							<key>type</key>
+							<dict>
+								<key>subtype</key>
+								<integer>0</integer>
+								<key>type</key>
+								<integer>6</integer>
+							</dict>
+							<key>value</key>
+							<dict>
+								<key>type</key>
+								<integer>6</integer>
+								<key>value</key>
+								<false/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>68C4A827-9272-4EE3-92ED-6137FBB36A5E</string>
+			<key>apiVersion</key>
+			<integer>3</integer>
+			<key>appIdentifier</key>
+			<string>co.kr.1games.WolfOnline</string>
+			<key>appVersion</key>
+			<string>2.1.1</string>
+			<key>cloudDescription</key>
+			<string></string>
+			<key>name</key>
+			<string>Remove Jailbreak Detection</string>
+			<key>switchedOn</key>
+			<true/>
+			<key>units</key>
+			<array>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>GADDevice</string>
+						<key>displayName</key>
+						<string>-(bool) jailbroken</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>jailbroken</string>
+						<key>typeEncoding</key>
+						<string>B16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(bool) jailbroken</string>
+					<key>overrides</key>
+					<array>
+						<dict>
+							<key>argument</key>
+							<integer>0</integer>
+							<key>type</key>
+							<dict>
+								<key>subtype</key>
+								<integer>0</integer> compatibility
