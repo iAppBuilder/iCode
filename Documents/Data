@@ -1,1 +1,6 @@
-test
+// data
+
+  <key>isUser</key>
+  <bool>true/>
+  <key>isdev</key>
+  <bool>false/>
